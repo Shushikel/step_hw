@@ -1,0 +1,267 @@
+/*сброс стандартных стилей*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+}
+.container{
+	width: calc(100vw);
+	height: calc(100vh);
+	background: #81d8df;
+	position: relative;
+}
+.home{
+	position: relative;
+	top: 0;
+	right: 10px;
+
+}
+.base{
+	position:absolute;
+	bottom: -880px;
+    left: 36px;
+	
+	
+}
+.wall{
+	width: 265px;
+	height: 300px;
+	background-color: #8a7225;
+	position: relative;
+	
+}
+.window{
+	width: 100px;
+	height: 100px;
+	background-color: #a7e4e9;
+	position: absolute;
+	bottom: 110px;
+    right: 80px;
+	
+}
+.roof{
+	position:absolute;
+	bottom: -583px;
+    left: 0px;
+	
+}
+.tile{
+	border: 170px solid transparent;
+	border-bottom: 255px solid #a03109;
+	display: block;
+	width: 0;
+	height: 0;
+	position: relative;
+}
+.circle{
+	width: 100px;
+	height: 100px;
+	background-color: #a7e4e9;
+	border-radius: 50px;
+	position: absolute;
+	bottom: -190px;
+    left: -46px;
+}
+.wood{
+	position: relative;
+	top: 17px;
+	left: 10px;
+}
+.tree{
+	position: relative;
+}
+.crown{
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	background: #075507;
+	position: absolute;
+	top: 500px;
+    left: 365px;
+	z-index: 1;
+}
+.trunk{
+	width: 50px;
+	height: 200px;
+	background: #332515;
+	position: absolute;
+	top: 663px;
+    left: 437px;
+}
+.tree{
+	position: relative;
+	top: 17px;
+    left: 9px;
+}
+.pine{
+	width: 50px;
+	height: 200px;
+	background: #332515;
+	position: absolute;
+	top: 663px;
+    left: 869px;
+}
+.segments{
+	position: relative;
+}
+.segment-1{
+	border: 100px solid transparent;
+	border-bottom: 150px solid #075507;
+	display: block;
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 522px;
+    left: 796px;
+
+}
+.segment-2{
+	border: 80px solid transparent;
+	border-bottom: 120px solid #075507;
+	display: block;
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 463px;
+    left: 817px;
+}
+.segment-3{
+	border: 60px solid transparent;
+	border-bottom: 100px solid #075507;
+	display: block;
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 442px;
+    left: 836px;
+}
+.bird{
+	position:relative;
+	transform:rotate(-21deg);
+}
+.torso{
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	background: #854eeb;
+	position: absolute;
+	top: 260px;
+    left: 365px;
+}
+.wings{
+	position:relative;
+}
+.wing-1{
+	border: 30px solid transparent;
+	border-bottom: 20px solid #854eeb;
+	display: block;
+	width: 0;
+	height: 0;
+	transform:rotate(45deg);
+	position: absolute;
+	top: 220px;
+    left: 337px;
+}
+.wing-2{
+	border: 30px solid transparent;
+	border-bottom: 20px solid #854eeb;
+	display: block;
+	width: 0;
+	height: 0;
+	position: absolute;
+	transform:rotate(45deg);
+	top: 277px;
+    left: 400px;
+}
+.sun{
+	position:relative;
+	top: 13px;
+	left: 10px;
+}
+.figure{
+	position:relative;
+}
+.sphere{
+	width: 250px;
+	height: 250px;
+	border-radius: 125px;
+	background: #c0e70f;
+	position: absolute;
+	top: 95px;
+    left: 850px;
+}
+.ray-1{
+	width: 25px;
+	height: 95px;
+	background: #c0e70f;
+	top: 247px;
+    left: 114px;
+    position: absolute;
+    transform: rotate(0deg);
+}
+.ray-2{
+	width: 25px;
+	height: 95px;
+	background: #c0e70f;
+	top: 178px;
+    left: 246px;
+    position: absolute;
+    transform: rotate(121deg);
+}
+.ray-3{
+	width: 25px;
+	height: 95px;
+	background: #c0e70f;
+	top: 42px;
+    left: 280px;
+    position: absolute;
+    transform: rotate(78deg);
+}
+.ray-4{
+	width: 25px;
+	height: 95px;
+	background: #c0e70f;
+	top: 178px;
+    left: -21px;
+	position: absolute;
+	transform: rotate(57deg);
+}
+.ray-5{
+	width: 25px;
+	height: 95px;
+	background: #c0e70f;
+	top: 42px;
+    left: -55px;
+    position: absolute;
+    transform: rotate(104deg);
+}
+.ray-6{
+	width: 25px;
+	height: 95px;
+	background: #c0e70f;
+	top: -47px;
+    left: 228px;
+    position: absolute;
+    transform: rotate(45deg);
+}
+.ray-7{
+	width: 25px;
+	height: 95px;
+	background: #c0e70f;
+	top: -47px;
+    left: -3px;
+    position: absolute;
+    transform: rotate(-38deg);
+}
+.ray-8{
+	width: 25px;
+	height: 95px;
+	background: #c0e70f;
+	top: -76px;
+    left: 111px;
+    position: absolute;
+    transform: rotate(0deg);
+}
